@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: #151515;
+}
+
+.getDetailsButton {
+  padding: 10px 20px;
+  border-radius: 2rem;
+  margin: 10px;
+}
+
+.getDetailsButton:hover {
+  scale: 0.95;
+  background-color: #d6d2d2;
+}
+.notesCollection {
+  height: 100vh;
+  width: 100%;
+  background-color: #655959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 5px;
+  row-gap: 2px;
+  flex-wrap: wrap;
+}
+
+.notes {
+  height: 200px;
+  width: 300px;
+  background-color: #a87070;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-transform: capitalize;
+}
